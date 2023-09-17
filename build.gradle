@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'org'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.bytedeco:javacv-platform:1.5.5'
+}
